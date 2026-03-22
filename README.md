@@ -2,7 +2,7 @@
 
 A full-stack project management app (similar to Trello/Asana) with kanban boards, task management, and real-time updates built for my CodeAlpha internship (task 3).
 
-Visit the site live at: 
+Visit the site live at: https://code-alpha-taskflow.vercel.app/
 
 ![TaskFlow overview screenshot](public/thumbnail.png)
 ![TaskFlow screenshot 2](public/thumbnail2.png)
