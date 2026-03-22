@@ -46,7 +46,7 @@ Visit the site live at:
 ### Clone this repo
 
 ```bash
-git clone https://github.com/your-username/project-management-app.git
+git clone https://github.com/richelleadarlo/CodeAlpha_TaskFlow_Project-Management-Tool_Richelle-Grace-Adarlo.git
 cd project-management-app
 ```
 
