@@ -6,6 +6,8 @@ Visit the site live at:
 
 ![TaskFlow overview screenshot](public/thumbnail.png)
 ![TaskFlow screenshot 2](public/thumbnail2.png)
+![dark mode ss 1](public/dark1.png)
+![dark mode ss 2](public/dark2.png)
 
 ## Tech Stack
 
