@@ -4,7 +4,7 @@ A full-stack project management app (similar to Trello/Asana) with kanban boards
 
 Visit the site live at: 
 
-![TaskFlow overview screenshot](public/pic.png)
+![TaskFlow overview screenshot](public/thumbnail.png)
 
 ## Tech Stack
 
