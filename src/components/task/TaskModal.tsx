@@ -190,7 +190,7 @@ export function TaskModal({ task, projectId, members, columns, onClose, onUpdate
                 + Add
               </button>
               {showAssignees && (
-                <div className="absolute left-0 top-full z-20 mt-2 max-h-48 w-56 overflow-y-auto rounded-2xl border border-border/70 bg-card/95 p-1 shadow-[0_20px_50px_-32px_rgba(10,16,28,0.9)] backdrop-blur-xl animate-fade-in">
+                <div className="absolute left-0 top-full z-20 mt-2 max-h-48 w-56 overflow-y-auto rounded-2xl border border-border/70 bg-card/95 p-1 shadow-[0_20px_50px_-32px_rgba(10,16,28,0.9)] dark:shadow-[0_20px_50px_-32px_rgba(255,255,255,0.34)] backdrop-blur-xl animate-fade-in">
                   {members.filter(m => m.profile && !assignees.some((a: Profile) => a.id === m.user_id)).map(m => (
                     <button
                       key={m.id}

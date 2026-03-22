@@ -32,7 +32,7 @@ export function TaskCard({ task, index, onClick }: TaskCardProps) {
           {...provided.dragHandleProps}
           onClick={onClick}
           className={`bento-card mb-3 cursor-pointer rounded-[1.35rem] p-4 transition-all duration-150 ${
-            snapshot.isDragging ? 'scale-[1.03] ring-2 ring-primary/30 shadow-2xl' : 'hover:-translate-y-1 hover:shadow-[0_22px_54px_-34px_rgba(15,23,42,0.75)]'
+            snapshot.isDragging ? 'scale-[1.03] ring-2 ring-primary/30 shadow-2xl dark:shadow-[0_18px_42px_-14px_rgba(255,255,255,0.3)]' : 'hover:-translate-y-1 hover:shadow-[0_22px_54px_-34px_rgba(15,23,42,0.75)] dark:hover:shadow-[0_22px_54px_-34px_rgba(255,255,255,0.34)]'
           }`}
           style={{
             ...provided.draggableProps.style,

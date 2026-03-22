@@ -61,7 +61,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <div
       onClick={() => navigate(`/project/${project.id}`)}
-      className="bento-card relative overflow-hidden p-6 cursor-pointer hover:-translate-y-1.5 hover:shadow-[0_26px_70px_-34px_rgba(15,23,42,0.5)] transition-all duration-200 active:scale-[0.98] group animate-fade-in-up"
+      className="bento-card relative overflow-hidden p-6 cursor-pointer hover:-translate-y-1.5 hover:shadow-[0_26px_70px_-34px_rgba(15,23,42,0.5)] dark:hover:shadow-[0_26px_70px_-34px_rgba(255,255,255,0.32)] transition-all duration-200 active:scale-[0.98] group animate-fade-in-up"
       style={{
         animationDelay: `${index * 80}ms`,
         background: `linear-gradient(180deg, ${accentWash} 0%, ${accentWashEnd} 100%)`,

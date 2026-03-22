@@ -23,7 +23,7 @@ export function NotificationDropdown({ onClose }: NotificationDropdownProps) {
   };
 
   return (
-    <div className="absolute right-0 top-full z-50 mt-2 w-80 overflow-hidden rounded-[1.75rem] border border-border/75 bg-gradient-to-br from-card/96 via-card/88 to-card/76 shadow-[0_24px_70px_-34px_rgba(10,16,28,0.75)] backdrop-blur-xl animate-fade-in-up">
+    <div className="absolute right-0 top-full z-50 mt-2 w-80 overflow-hidden rounded-[1.75rem] border border-border/75 bg-gradient-to-br from-card/96 via-card/88 to-card/76 shadow-[0_24px_70px_-34px_rgba(10,16,28,0.75)] dark:shadow-[0_24px_70px_-34px_rgba(255,255,255,0.34)] backdrop-blur-xl animate-fade-in-up">
       <div className="flex items-center justify-between border-b border-border/70 px-4 py-4">
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-muted-foreground">Inbox</p>

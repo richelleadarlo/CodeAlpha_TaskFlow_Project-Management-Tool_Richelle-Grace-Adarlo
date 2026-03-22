@@ -66,7 +66,7 @@ export function BoardColumn({ column, tasks, onAddTask, onClickTask, onRenameCol
             <MoreHorizontal className="w-4 h-4" />
           </button>
           {showMenu && (
-            <div className="absolute right-0 top-full z-20 mt-2 w-40 rounded-2xl border border-border/70 bg-card/95 p-1 shadow-[0_20px_50px_-32px_rgba(10,16,28,0.9)] backdrop-blur-xl animate-fade-in">
+            <div className="absolute right-0 top-full z-20 mt-2 w-40 rounded-2xl border border-border/70 bg-card/95 p-1 shadow-[0_20px_50px_-32px_rgba(10,16,28,0.9)] dark:shadow-[0_20px_50px_-32px_rgba(255,255,255,0.34)] backdrop-blur-xl animate-fade-in">
               <button
                 onClick={() => { setIsEditing(true); setEditName(column.name); setShowMenu(false); }}
                 className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-sm text-foreground transition-colors hover:bg-muted"
